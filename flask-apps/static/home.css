@@ -1,0 +1,46 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+  backgroun
+}
+
+div.profile {
+  display: grid;
+  grid-template-columns: 1fr auto auto auto;
+  align-items: start;
+  width: 100%;
+}
+
+div.profile span {
+  display: inline-block;
+  align-self: center;
+  color: #ccc;
+  margin-left: 10px;
+  margin-right: 25px;
+}
+
+div.profile img {
+  width: 30px;
+  border-radius: 50%;
+  align-self: center;
+}
+
+div#message {
+  display: none;
+}
+
+.adbar{
+  /* display: block; */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* left: 50%; */
+  right: 30%;
+  bottom: 30px;
+  position: fixed;
+}
+
+h1{
+  justify-content: center;
+  align-items: center;
+  text-align:center
+}
